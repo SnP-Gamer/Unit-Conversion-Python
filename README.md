@@ -1,54 +1,45 @@
-# Unit Converter Pro
+Unit Converter Pro
+==================
 
-*By SnP-Gamer with AI assistance*
+A simple and flexible command-line unit conversion tool built with Pydroid3 with ai assisstance 
 
----
+Features
+--------
+- Convert between common units of:
+  - Length (m, km, cm, mm, ft, in, yd, mi)
+  - Weight (mg, g, kg, oz, lb, st)
+  - Temperature (Celsius, Fahrenheit, Kelvin)
 
-## Description
+- Easy text-based interface
+- Input validation for units and numbers
+- Real-time results with clear formatting
 
-A user-friendly Python tool for converting units of length, weight, and temperature with expanded unit support and clear prompts.
+How to Use
+----------
+1. Run the script with Python 3.
+2. Choose a conversion category from the menu.
+3. Enter the value you want to convert.
+4. Choose the units to convert from and to.
+5. Get the result instantly.
 
----
+Example
+-------
+> Select option: 1 (Length Conversion)
+> Enter value: 1000
+> Convert from: m
+> Convert to: km
+> Result: 1000 m = 1.00 km
 
-## Features
+Requirements
+------------
+- Python 3 (Tested on Android with Pydroid 3)
 
-- Length conversions including meters, kilometers, centimeters, millimeters, feet, inches, yards, and miles.  
-- Weight conversions including milligrams, grams, kilograms, ounces, pounds, and stones.  
-- Temperature conversions between Celsius, Fahrenheit, and Kelvin.  
-- Input validation with retry prompts to prevent errors.  
-- Accepts uppercase or lowercase unit abbreviations.  
-- Displays available units before input to guide the user.  
-- Repeat conversions without restarting the program.  
-- Clean and clear user interface designed for beginners.  
-- Works on Python 3.6+ with no external libraries required.
+Notes
+-----
+- Unit inputs are not case-sensitive.
+- Make sure to enter valid unit abbreviations as shown in each category.
 
----
-
-## How to Use
-
-1. Run the script in your Python environment (e.g., Pydroid 3 on Android, or any desktop Python interpreter).  
-2. Choose the type of conversion you want:  
-   - Length  
-   - Weight  
-   - Temperature  
-3. Follow the prompts to enter the value and select the units.  
-4. The program will show the converted value formatted to two decimal places.  
-5. After each conversion, you can choose to convert again or exit the program.
-
----
-
-## Notes
-
-- Units must be entered as shown in the available units list.  
-- Always double-check your inputs to avoid mistakes.  
-- This tool is perfect for students, travelers, and anyone needing quick unit conversions.
-
----
-
-## Contact
-
-Contact me with any issues and please remember, I'm a complete beginner.
-
----
-
-Thank you for using my Unit Converter Pro!
+Author
+------
+Created by: SnP-Gamer
+Version: 1.0 (Basic CLI version)
