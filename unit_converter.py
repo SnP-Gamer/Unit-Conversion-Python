@@ -1,4 +1,4 @@
-#unit_converter.py, made on android using pydriod3 with ai assisstance 
+#unit_converter.py, made on android using pydroid3 with ai assisstance 
 
 def get_unit(prompt, valid_units):
     while True:
